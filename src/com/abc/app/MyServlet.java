@@ -20,6 +20,7 @@ public class MyServlet extends HttpServlet {
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>Hello World Servlet on AWS Pipeline ANT samdani</h1>");
 		writer.println("<h1>My pipeline --ANT</h1>");
+		writer.println("<h1>OIP ANT </h1>");
 		writer.close();
 
 	}
